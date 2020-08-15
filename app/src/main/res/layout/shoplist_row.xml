@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/shoplist_row_name"
+        android:layout_width="118dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:onClick="to_shoplist"
+        android:text="nazwa listy"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/shoplist_row_date"
+        android:layout_width="128dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="2dp"
+        android:text="data"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/shoplist_row_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_edit" />
+
+    <ImageView
+        android:id="@+id/shoplist_row_del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="328dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_delete" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

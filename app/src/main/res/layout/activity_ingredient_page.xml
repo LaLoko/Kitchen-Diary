@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ingredient_page">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#56FFFFFF"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/spices" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7A000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ig_page_avatar"
+            android:layout_width="169dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@drawable/icon" />
+
+        <TextView
+            android:id="@+id/ig_page_name"
+            android:layout_width="171dp"
+            android:layout_height="81dp"
+            android:layout_marginStart="184dp"
+            android:layout_marginTop="4dp"
+            android:text="name"
+            android:textColor="#8BC34A"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ig_page_vegan"
+            android:layout_width="150dp"
+            android:layout_height="31dp"
+            android:layout_marginStart="184dp"
+            android:layout_marginTop="88dp"
+            android:text="vegan"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/kcal_text"
+            android:layout_width="149dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="236dp"
+            android:text="kalorie"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/in_stock_text"
+            android:layout_width="188dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="444dp"
+            android:text="posiadana ilość (gram)"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ig_page_in_stock"
+            android:layout_width="172dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="444dp"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ig_page_kcal"
+            android:layout_width="149dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="236dp"
+            android:text="kalorie"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/carbs_text"
+            android:layout_width="149dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="288dp"
+            android:text="węglowodany"
+            android:textColor="#BBB9B9"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ig_page_carbs"
+            android:layout_width="149dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="288dp"
+            android:text="węglowodany"
+            android:textColor="#BBB9B9"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/prot_text"
+            android:layout_width="149dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="340dp"
+            android:text="białko"
+            android:textColor="#F44336"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ig_page_prot"
+            android:layout_width="149dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="340dp"
+            android:text="białko"
+            android:textColor="#F44336"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fat_text"
+            android:layout_width="149dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="392dp"
+            android:text="tłuszcze"
+            android:textColor="#FFC107"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ig_page_fat"
+            android:layout_width="149dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="196dp"
+            android:layout_marginTop="392dp"
+            android:text="tłuszcze"
+            android:textColor="#FFC107"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ig_page_buydate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="144dp"
+            android:layout_marginTop="172dp"
+            android:text="buydate"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/bt_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="172dp"
+            android:text="data kupna"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/ig_page_eatabletime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="304dp"
+            android:layout_marginTop="208dp"
+            android:text="100"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/et_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="208dp"
+            android:text="dni przydatności do spożycia"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/ig_page_add"
+            android:layout_width="360dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="516dp"
+            android:backgroundTint="#8BC34A"
+            android:ems="10"
+            android:hint="0 (g)"
+            android:inputType="text"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#8BC34A"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/ig_page_btn"
+            android:layout_width="365dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="580dp"
+            android:text="ustaw posiadaną ilość"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/del_ing"
+            android:layout_width="158dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="186dp"
+            android:layout_marginTop="119dp"
+            android:text="usuń składnik"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

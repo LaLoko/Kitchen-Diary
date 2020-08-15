@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">kitchen diary</string>
+    <string name="ing_name" translatable="false">TextView</string>
+    <string name="ing_amount" translatable="false">TextView</string>
+    <string name="title_activity_shoplist_edit_page" translatable="false">Shoplist_edit_page</string>
+    <string name="title_activity_shoplist_add_page" translatable="false">Shoplist_add_page</string>
+    <string name="shoplist_page_name" translatable="false">shoplist_page_name</string>
+    <string name="_0_0_2000" translatable="false">0-0-2000</string>
+</resources>

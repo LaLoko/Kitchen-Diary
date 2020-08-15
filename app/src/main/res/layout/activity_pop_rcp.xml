@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#66888888"
+    android:backgroundTint="#66FFFFFF"
+    android:hapticFeedbackEnabled="false">
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#66FFFFFF"
+        android:backgroundTint="#66FFFFFF">
+
+        <RadioButton
+            android:id="@+id/sort_rcp_az"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:backgroundTint="#00FFFFFF"
+            android:text="A-Z"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/sort_rcp_za"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:backgroundTint="#00FFFFFF"
+            android:text="Z-A"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/sort_rcp_kcalup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:backgroundTint="#00FFFFFF"
+            android:text="Kalorie rosnąco"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/sort_rcp_kcaldown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:backgroundTint="#00FFFFFF"
+            android:text="Kalorie malejąco"
+            android:textSize="24sp" />
+        <RadioButton
+            android:id="@+id/sort_rcp_made_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:backgroundTint="#00FFFFFF"
+            android:text="częstość przygotowywania malejąco"
+            android:textSize="24sp" />
+        <RadioButton
+            android:id="@+id/sort_rcp_made_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:backgroundTint="#00FFFFFF"
+            android:text="częstość przygotowywania rosnąco"
+            android:textSize="24sp" />
+        <RadioButton
+            android:id="@+id/sort_rcp_occasion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00FFFFFF"
+            android:backgroundTint="#00FFFFFF"
+            android:text="okazja"
+            android:textSize="24sp" />
+    </RadioGroup>
+</RelativeLayout>

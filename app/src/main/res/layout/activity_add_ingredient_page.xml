@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ingredient_page">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#56FFFFFF"
+        android:scaleType="centerCrop"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/spices" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7A000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/kcal_text"
+            android:layout_width="149dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="236dp"
+            android:text="kalorie"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/carbs_text"
+            android:layout_width="194dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="288dp"
+            android:text="węglowodany"
+            android:textColor="#BBB9B9"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/prot_text"
+            android:layout_width="149dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="340dp"
+            android:text="białko"
+            android:textColor="#F44336"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/fat_text"
+            android:layout_width="149dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="392dp"
+            android:text="tłuszcze"
+            android:textColor="#FFC107"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/et_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="172dp"
+            android:text="dni przydatności do spożycia"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/ig_add_name"
+            android:layout_width="190dp"
+            android:layout_height="66dp"
+            android:layout_marginStart="174dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#8BC34A"
+            android:ems="10"
+            android:hint="nazwa"
+            android:inputType="textPersonName"
+            android:textColor="#8BC34A"
+            android:textColorHint="#8BC34A"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/ig_add_eatable_time"
+            android:layout_width="81dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="286dp"
+            android:layout_marginTop="160dp"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/ig_add_kcal"
+            android:layout_width="149dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="216dp"
+            android:layout_marginTop="236dp"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/ig_add_carbs"
+            android:layout_width="149dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="216dp"
+            android:layout_marginTop="288dp"
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="textPersonName"
+            android:textColor="#BBB9B9"
+            android:textColorHint="#BBB9B9"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/ig_add_prot"
+            android:layout_width="149dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="216dp"
+            android:layout_marginTop="340dp"
+            android:backgroundTint="#F44336"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="textPersonName"
+            android:textColor="#F44336"
+            android:textColorHint="#F44336"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/ig_add_fat"
+            android:layout_width="149dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="216dp"
+            android:layout_marginTop="392dp"
+            android:backgroundTint="#FFC107"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="textPersonName"
+            android:textColor="#FFC107"
+            android:textColorHint="#FFEB3B"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/ig_add_btn"
+            android:layout_width="348dp"
+            android:layout_height="114dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="472dp"
+            android:backgroundTint="#99CDDC39"
+            android:text="Dodaj Składnik"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Switch
+            android:id="@+id/ig_add_page_vegan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="96dp"
+            android:backgroundTint="#FF9800"
+            android:buttonTint="#FF9800"
+            android:foregroundTint="#FF9800"
+            android:text="WEGAŃSKIE"
+            android:textColor="#FF9800"
+            android:textColorLink="#FF9800"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ig_add_page_avatar"
+            android:layout_width="164dp"
+            android:layout_height="164dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/icon" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
