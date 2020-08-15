@@ -1,2 +1,2 @@
 # KitchenDiary
- kitchen helper app
+android kitchen helper app
